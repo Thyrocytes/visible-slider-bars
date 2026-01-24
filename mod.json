@@ -1,19 +1,19 @@
 {
-	"geode": "4.6.3",
+	"geode": "4.10.0",
 	"gd": {
 		"win": "2.2074",
 		"android": "2.2074",
 		"mac": "2.2074",
 		"ios": "2.2074"
 	},
-	"id": "reallynewb.visible_slider_backgrounds",
+	"id": "thyrocytes.visible_slider_backgrounds",
 	"name": "Visible Slider Backgrounds",
-	"version": "v1.2.1",
-	"developer": "ReallyNewb",
+	"version": "v1.2.3",
+	"developer": "Thyrocytes",
 	"description": "Makes slider backgrounds visible again",
 	"tags": ["universal", "offline"],
 	"links": {
-		"source": "https://github.com/ReallyNewb/visible-slider-backgrounds"
+		"source": "https://github.com/Thyrocytes/visible-slider-backgrounds"
 	},
 	"settings": {
 		"opposite-day": {
@@ -33,3 +33,4 @@
 		"geode.node-ids": ">=1.21.0"
 	}
 }
+
