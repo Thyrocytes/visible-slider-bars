@@ -1,3 +1,9 @@
+# v1.3.0
+
+* Made minor changes in the code yet again.
+
+* Support for 2.2081 and bumped Geode version to <cl>v5.0.0.</c>
+
 # v1.2.0
 
 * Made minor changes in the code.
@@ -20,7 +26,7 @@
 
 # v1.0.20
 
-* Basic changes in files like this changelog and more. I'm not sure if this is supported for Geode 4.60+.
+* Basic changes in files like this changelog and more. I'm not sure if this is supported for Geode 4.6.0+.
 
 # v1.0.2
 
@@ -32,4 +38,5 @@
 
 # v1.0.0
 
-* Initial release. Slider bars are apparent **everywhere** now, yay!
+* Initial release. Slider bars are visible **everywhere** now, yay!
+
