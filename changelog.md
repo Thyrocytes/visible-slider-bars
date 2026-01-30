@@ -1,14 +1,8 @@
 # v1.3.0
 
-* Made minor changes in the code:
+* Made <cf>minor optimization</c> changes in the code.
 
-	- <cr>Prevented</c> copying of the <cl>WeakRef.</c>
-
-	- <cb>Reverted</c> back tiny description from v1.0.2. <cr>Didn't realize it, probably because I edited it in the GitHub repository and not my local copy of the mod's source code.</c>
-
-* Deleted <cf>Ignore Editor Slider</c> setting. Editor slider background is now <cr>invisible</c> by default.
-
-* Support for 2.2081 and bumped Geode version to <cl>v5.0.0.</c>
+* Deleted <cl>Ignore Editor Slider</c> setting. Editor slider background is now <cr>invisible</c> by default.
 
 # v1.2.0
 

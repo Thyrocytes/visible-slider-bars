@@ -1,6 +1,6 @@
 # Visible Slider Backgrounds
 
-This mod attempts to make the blue slider bar visible for <co>every slider</c> in game, and I mean **every slider.** Slider bars are now visible in these menus:
+This mod attempts to make the blue slider bar visible for <ca>every slider</c> in game, and I mean **every slider.** Slider bars are now visible in these menus:
 
 - <cy>Move, Spawn, Shake, Follow Player Y (and more)</c> <cg>triggers</c>!
 
