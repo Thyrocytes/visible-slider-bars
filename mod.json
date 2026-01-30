@@ -1,5 +1,5 @@
 {
-	"geode": "4.11.0",
+	"geode": "4.10.2",
 	"gd": {
 		"win": "2.2074",
 		"android": "2.2074",
@@ -8,9 +8,9 @@
 	},
 	"id": "thyrocytes.visible_slider_backgrounds",
 	"name": "Visible Slider Backgrounds",
-	"version": "v1.2.3",
+	"version": "v1.3.0",
 	"developer": "Thyrocytes",
-	"description": "Makes slider backgrounds visible again",
+	"description": "Makes every slider bar visible.",
 	"tags": ["universal", "offline"],
 	"links": {
 		"source": "https://github.com/Thyrocytes/visible-slider-backgrounds"
@@ -21,17 +21,12 @@
 			"name": "Opposite Day!",
 			"description": "Makes the mod break its promise. <cj>Why would you want to do this?</c>",
 			"default": false
-		},
-		"ignore-editor-slider": {
-			"type": "bool",
-			"name": "Ignore Editor Slider",
-			"description": "Disables the slider background for the editor slider.",
-			"default": false
 		}
 	},
 	"dependencies": {
-		"geode.node-ids": ">=1.21.0"
+		"geode.node-ids": {
+			"version": ">=v1.21.1",
+			"importance": "required"
+		}
 	}
 }
-
-

@@ -1,31 +1,23 @@
 #include <Geode/Geode.hpp>
 #include <Geode/modify/Slider.hpp>
 
-class $modify(NewSlider, Slider) {
-public:
-	bool init(cocos2d::CCNode* p0, cocos2d::SEL_MenuHandler p1, char const* p2, char const* p3, char const* p4, char const* p5, float p6) {
-		if (!Slider::init(p0, p1, p2, p3, p4, p5, p6)) return false;
+class $modify(Slider) {
+	bool init(cocos2d::CCNode* target, cocos2d::SEL_MenuHandler handler, const char* bar, const char* groove, const char* thumb, const char* thumbSel, float scale) {
+		if (!Slider::init(target, handler, bar, groove, thumb, thumbSel, scale)) return false;
+		if (this->getID() == "position-slider") return true;
 
 		auto failsafe = geode::WeakRef(this);
-		geode::queueInMainThread([failsafe] {
+		geode::queueInMainThread([failsafe = std::move(failsafe)] {
 			auto self = failsafe.lock();
 			if (!self) return;
-			auto main = self->getChildByType<cocos2d::CCSprite>(0);
-			if (!main) return;
-			auto bg = main->getChildByType<cocos2d::CCSprite>(0);
-			if (!bg) return;
 
-			auto nodeId = self->getID();
-			bool moveDown = nodeId == "position-slider" || geode::cast::typeinfo_cast<GJScaleControl*>(self->getParent());
+			auto* bar = self->m_sliderBar;
+			bool isScaleControl = geode::cast::typeinfo_cast<GJScaleControl*>(self->getParent());
 
-			if (moveDown) bg->setPositionY(2.f);
-
-			if (nodeId == "position-slider") {
-				bg->setVisible(!geode::Mod::get()->getSettingValue<bool>("ignore-editor-slider"));
-			} else {
-				bg->setVisible(!geode::Mod::get()->getSettingValue<bool>("opposite-day"));   
-			}
+			if (isScaleControl) bar->setPositionY(2.f);
+			bar->setVisible(!geode::Mod::get()->getSettingValue<bool>("opposite-day"));   
 		});
+
 		return true;
 	}
 };
