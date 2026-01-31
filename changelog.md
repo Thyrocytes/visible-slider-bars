@@ -1,6 +1,6 @@
 # v1.3.1
 
-* Used <cp>CallFuncExt</c> instead of <ca>queueInMainThread</c> (thanks <ca>Alphalaneous</c>).
+* Used <cp>CallFuncExt</c> instead of <ca>queueInMainThread</c> (thanks <ca>Alphalaneous</c> for the tip).
 
 # v1.3.0
 
@@ -41,5 +41,6 @@
 * Changed parts of the code to be a little bit more cleaner.
 
 # v1.0.0
+
 
 * Initial release. Slider bars are visible **everywhere** now, yay!
