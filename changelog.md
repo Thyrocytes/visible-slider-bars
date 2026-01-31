@@ -1,3 +1,7 @@
+# v1.3.1
+
+* Used <cp>CallFuncExt</c> instead of <ca>queueInMainThread</c> (thanks <ca>Alphalaneous</c>).
+
 # v1.3.0
 
 * Made <cf>minor optimization</c> changes in the code.
