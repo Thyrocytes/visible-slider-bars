@@ -42,5 +42,4 @@
 
 # v1.0.0
 
-
 * Initial release. Slider bars are visible **everywhere** now, yay!
