@@ -24,9 +24,9 @@
 
 # v1.1.1
 
-* Fixed editor slider being a bit <cr>misaligned.</c>
+* Fixed editor slider background being a bit <cr>misaligned.</c>
 
-* Added ability to <cj>toggle editor slider background.</c>
+* Added ability to <cj>toggle editor slider background visibility.</c>
 
 # v1.1.0
 
