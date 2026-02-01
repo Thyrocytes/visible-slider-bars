@@ -1,6 +1,6 @@
 # v1.3.2
 
-* <cp>Bumped Geode to v5</c> and made a few <ca>minor changes</c> in some of the mod's files.
+* <cp>Bumped Geode to v5</c> and made a <ca>few minor changes</c> in some of the <cp>mod's files.</c>
 
 # v1.3.1
 
