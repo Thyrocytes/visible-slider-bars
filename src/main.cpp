@@ -5,7 +5,7 @@ class $modify(Slider) {
 	bool init(cocos2d::CCNode* target, cocos2d::SEL_MenuHandler handler, const char* bar, const char* groove, const char* thumb, const char* thumbSel, float scale) {
 		if (!Slider::init(target, handler, bar, groove, thumb, thumbSel, scale)) return false;
 
-		this->runAction(geode::cocos::CallFuncExt::create([this]() {
+		this->runAction(geode::cocos::CallFuncExt::create([this]() noexcept {
 			if (this->getID() == "position-slider") return;
 			this->updateBar();
 
