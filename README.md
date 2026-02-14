@@ -1,4 +1,4 @@
-# Visible Slider Backgrounds
+# Visible Slider Bars
 
 This mod attempts to make the blue slider bar visible for <cp>every slider</c> in game, and I mean **every slider.** Slider bars are now visible in these menus:
 
