@@ -1,4 +1,4 @@
-# v1.3.2 and v1.3.3
+# v1.3.2, v1.3.3, and v1.3.4
 
 * <cp>Bumped Geode to v5</c> and made a <ca>few minor changes</c> in some of the <cp>mod's files.</c>
 
@@ -50,3 +50,4 @@
 
 # v1.0.0
 * Initial release. Slider bars are visible **everywhere** now, yay!
+
