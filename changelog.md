@@ -1,4 +1,6 @@
-# v1.3.2, v1.3.3, and v1.3.4
+# v5 Release
+
+## v1.3.2, v1.3.3, v1.3.4, and v1.3.5
 
 * <cp>Bumped Geode to v5</c> and made a <ca>few minor changes</c> in some of the <cp>mod's files.</c>
 
