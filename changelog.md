@@ -8,7 +8,7 @@
 
 * <cp>Changed the name of the mod</c> to <ca>Visible Slider Bars</c> from <cp>Visible Slider Backgrounds.</c>
 
-* <cp>Changed</c> the mod icon to include a <ca>rounded square</c> rather than just a <cp>blue background with a slider.</c>
+* <cp>Changed</c> the mod icon to include a <ca>rounded square.</c>
 
 # v1.3.1
 
