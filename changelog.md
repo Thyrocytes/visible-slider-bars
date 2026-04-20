@@ -1,4 +1,4 @@
-# Releases for Geode v5
+# Releases for Geode v5.0.0
 
 ## v1.3.2, v1.3.3, v1.3.4, and v1.3.5
 
@@ -7,6 +7,8 @@
 * <cp>Fixed a bug</c> where <ca>slider bars</c> wouldn't be <cp>attached to the thumb</c> in <ca>Mixed Trigger UIs.</c>
 
 * <cp>Changed the name of the mod</c> to <ca>Visible Slider Bars</c> from <cp>Visible Slider Backgrounds.</c>
+
+* <cp>Changed</c> the mod icon to include a <ca>rounded square</c> rather than just a <cp>blue background with a slider.</c>
 
 # v1.3.1
 
