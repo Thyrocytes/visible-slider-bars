@@ -1,6 +1,8 @@
-# Releases for Geode v5.0.0
+## v1.3.5
 
-## v1.3.2, v1.3.3, v1.3.4, and v1.3.5
+* Bumped <cp>Geode</c> to <ca>v6.0.0 beta 1</c>.
+
+## v1.3.2, v1.3.3, v1.3.4
 
 * <cp>Bumped Geode to v5</c> and made a <ca>few minor changes</c> in some of the <cp>mod's files.</c>
 
