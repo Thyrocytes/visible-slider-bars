@@ -2,10 +2,10 @@
 #include <Geode/modify/Slider.hpp>
 
 struct VisibleBarSlider final : public geode::Modify<VisibleBarSlider, Slider> {
-	bool init(cocos2d::CCNode* target, cocos2d::SEL_MenuHandler handler, const char* bar, const char* groove, const char* thumb, const char* thumbSel, float scale) {
+	bool init(cocos2d::CCNode* target, cocos2d::SEL_MenuHandler handler, const char* bar, const char* groove, const char* thumb, const char* thumbSel, float scale) noexcept {
 		if (!Slider::init(target, handler, bar, groove, thumb, thumbSel, scale)) return false;
 
-		runAction(geode::cocos::CallFuncExt::create([this] {
+		runAction(geode::cocos::CallFuncExt::create([this] noexcept {
 			if (getID() == "position-slider") return;
 			updateBar();
 
