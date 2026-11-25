@@ -1,5 +1,9 @@
 ## v1.3.5
 
+* Bumped <cp>Geode</c> to <ca>v6.0.0</c> and removed <cg>noexcept</c> from the code (just in case).
+
+## v1.3.5
+
 * Bumped <cp>Geode</c> to <ca>v6.0.0 beta 1</c>.
 
 ## v1.3.2, v1.3.3, v1.3.4

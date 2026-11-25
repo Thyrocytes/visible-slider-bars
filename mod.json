@@ -1,5 +1,5 @@
 {
-	"geode": "6.0.0-beta.2",
+	"geode": "6.0.0",
 	"gd": {
 		"win": "2.2091",
 		"android": "2.2091",
@@ -8,7 +8,7 @@
 	},
 	"id": "reallynewb.visible_slider_backgrounds",
 	"name": "Visible Slider Bars",
-	"version": "v1.3.5",
+	"version": "v1.3.6",
 	"developer": "Thyrocytes",
 	"description": "Makes every slider bar visible.",
 	"tags": ["universal", "offline"],
